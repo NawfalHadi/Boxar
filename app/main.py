@@ -17,8 +17,7 @@ def left_panel():
     pygame.draw.rect(screen, (0, 0, 0), (LEFT_PANEL_WIDTH // 6, PANEL_HEIGHT // 6, LEFT_PANEL_WIDTH // 1.5, PANEL_HEIGHT // 1.5), 5)  # Border
 
 def right_panel():
-    pygame.draw.rect(screen, (0, 255, 0), (LEFT_PANEL_WIDTH + RIGHT_PANEL_WIDTH // 4, PANEL_HEIGHT // 4, RIGHT_PANEL_WIDTH // 2, PANEL_HEIGHT // 2))
-
+    pass
 
 running = True
 while running:
