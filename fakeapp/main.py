@@ -8,6 +8,8 @@ from scenes.pad_works import show_pad_works
 from scenes.tutorial import show_tutorial
 
 def main_menu(screen):
+    BLACK = (0, 0, 0)
+    WHITE = (255, 255, 255)
     # Define button areas (for simplicity, using rectangles)
     play_vs_bot_button = pygame.Rect(450, 100, 250, 50)
     shadow_boxing_button = pygame.Rect(450, 200, 250, 50)
@@ -15,6 +17,8 @@ def main_menu(screen):
     tutorial_button = pygame.Rect(450, 350, 250, 50)
     exit_button = pygame.Rect(650, 530, 100, 40)
 
+    font = pygame.font.Font(None, 32)
+    
     # Main menu loop
     while True:
         for event in pygame.event.get():
